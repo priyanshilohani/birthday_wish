@@ -34,29 +34,30 @@
   --radius: 1rem; /* User defined radius */
 
   /* Shadcn/ui default variables (added, overridden where conflicts with user UI colors) */
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.577 0.245 27.325);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --popover: oklch(1 0 0); /* User-defined */
+  --popover-foreground: oklch(0.145 0 0); /* User-defined */
+  --secondary: oklch(0.97 0 0); /* User-defined */
+  --secondary-foreground: oklch(0.205 0 0); /* User-defined */
+  --muted-foreground: oklch(0.556 0 0); /* Added from diff */
+  --accent: oklch(0.97 0 0); /* User-defined */
+  --accent-foreground: oklch(0.205 0 0); /* User-defined */
+  --destructive: oklch(0.577 0.245 27.325); /* User-defined */
+  --destructive-foreground: oklch(0.577 0.245 27.325); /* User-defined */
+  --input: oklch(0.922 0 0); /* User-defined */
+  --ring: oklch(0.708 0 0); /* User-defined */
+  --chart-1: oklch(0.646 0.222 41.116); /* User-defined */
+  --chart-2: oklch(0.6 0.118 184.704); /* User-defined */
+  --chart-3: oklch(0.398 0.07 227.392); /* User-defined */
+  --chart-4: oklch(0.828 0.189 84.429); /* User-defined */
+  --chart-5: oklch(0.769 0.188 70.08); /* User-defined */
+  --sidebar: oklch(0.985 0 0); /* User-defined */
+  --sidebar-foreground: oklch(0.145 0 0); /* User-defined */
+  --sidebar-primary: oklch(0.205 0 0); /* User-defined */
+  --sidebar-primary-foreground: oklch(0.985 0 0); /* User-defined */
+  --sidebar-accent: oklch(0.97 0 0); /* User-defined */
+  --sidebar-accent-foreground: oklch(0.205 0 0); /* User-defined */
+  --sidebar-border: oklch(0.922 0 0); /* User-defined */
+  --sidebar-ring: oklch(0.708 0 0); /* User-defined */
 }
 
 .dark {
@@ -100,40 +101,38 @@
   --color-foreground: var(--foreground);
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover); /* Added from shadcn/ui */
+  --color-popover-foreground: var(--popover-foreground); /* Added from shadcn/ui */
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary); /* Added from shadcn/ui */
+  --color-secondary-foreground: var(--secondary-foreground); /* Added from shadcn/ui */
   --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground); /* Added from shadcn/ui */
+  --color-accent: var(--accent); /* Added from shadcn/ui */
+  --color-accent-foreground: var(--accent-foreground); /* Added from shadcn/ui */
+  --color-destructive: var(--destructive); /* Added from shadcn/ui */
+  --color-destructive-foreground: var(--destructive-foreground); /* Added from shadcn/ui */
   --color-border: var(--border);
+  --color-input: var(--input); /* Added from shadcn/ui */
+  --color-ring: var(--ring); /* Added from shadcn/ui */
+  --color-chart-1: var(--chart-1); /* Added from shadcn/ui */
+  --color-chart-2: var(--chart-2); /* Added from shadcn/ui */
+  --color-chart-3: var(--chart-3); /* Added from shadcn/ui */
+  --color-chart-4: var(--chart-4); /* Added from shadcn/ui */
+  --color-chart-5: var(--chart-5); /* Added from shadcn/ui */
+  --radius-sm: calc(var(--radius) - 4px); /* Added from shadcn/ui */
+  --radius-md: calc(var(--radius) - 2px); /* Added from shadcn/ui */
   --radius-lg: var(--radius); /* Existing radius */
-
-  /* Added from shadcn/ui */
-  --color-popover: var(--popover);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-secondary: var(--secondary);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
-  --color-destructive-foreground: var(--destructive-foreground);
-  --color-input: var(--input);
-  --color-ring: var(--ring);
-  --color-chart-1: var(--chart-1);
-  --color-chart-2: var(--chart-2);
-  --color-chart-3: var(--chart-3);
-  --color-chart-4: var(--chart-4);
-  --color-chart-5: var(--chart-5);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-xl: calc(var(--radius) + 4px);
-  --color-sidebar: var(--sidebar);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-ring: var(--sidebar-ring);
+  --radius-xl: calc(var(--radius) + 4px); /* Added from shadcn/ui */
+  --color-sidebar: var(--sidebar); /* Added from shadcn/ui */
+  --color-sidebar-foreground: var(--sidebar-foreground); /* Added from shadcn/ui */
+  --color-sidebar-primary: var(--sidebar-primary); /* Added from shadcn/ui */
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground); /* Added from shadcn/ui */
+  --color-sidebar-accent: var(--sidebar-accent); /* Added from shadcn/ui */
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground); /* Added from shadcn/ui */
+  --color-sidebar-border: var(--sidebar-border); /* Added from shadcn/ui */
+  --color-sidebar-ring: var(--sidebar-ring); /* Added from shadcn/ui */
 }
 
 /* ---------- Base Styles ---------- */
