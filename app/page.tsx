@@ -4,24 +4,24 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 
 const MESSAGES = [
   {
-    title: "Happy Belated Birthday 🎀",
+    title: "Happy Belated Birthday ⸜(｡˃ ᵕ ˂ )⸝♡",
     body: "Sorry its a little late but I didn't know your birthday since we've been friends for a very short while..",
     sticker: "🎂",
   },
   {
-    title: "But even in this short time… ✨",
+    title: "But even in this short time… ૮ ྀིᴗ͈ . ᴗ͈ ྀིა",
     body: "I really like your vibe, your weirdness, your unhinged Instagram feed, and you introducing me to Indian meme culture. 😭🫶",
     sticker: "💖",
   },
   {
     title: "💌",
     body: "Even it was towards the end I'm glad we meet. Now I have another person to discuss yaoi with yayyy!! 😭",
-    sticker: "🙈",
+    sticker: "ദ്ദി( •̀ ᴗ - ) ✧",
   },
   {
-    title: "You're a gem 🌸",
+    title: "You're a gem ⊹ ࣪ ˖",
     body: "Keeping shinning and being yourself. Here's to more laughs and more memes!",
-    sticker: "🌟",
+    sticker: "⊹₊˚‧︵‿₊୨ᰔ୧₊‿︵‧˚₊⊹",
   },
 ];
 
