@@ -4,14 +4,14 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 
 const MESSAGES = [
   {
-    title: "Happy Belated Birthday ⸜(｡˃ ᵕ ˂ )⸝♡",
-    body: "Sorry its a little late but I didn't know your birthday since we've been friends for a very short while..",
+    title: "Happy Belated Birthday!",
+    body: "Sorry its a little late but I didn't know your birthday since we've been friends for a very short while..  ⸜(｡˃ ᵕ ˂ )⸝♡",
     sticker: "🎂",
   },
   {
-    title: "But even in this short time… ૮ ྀིᴗ͈ . ᴗ͈ ྀིა",
+    title: "But even in this short time…",
     body: "I really like your vibe, your weirdness, your unhinged Instagram feed, and you introducing me to Indian meme culture. 😭🫶",
-    sticker: "💖",
+    sticker: "૮ ྀིᴗ͈ . ᴗ͈ ྀིა",
   },
   {
     title: "💌",
