@@ -1,7 +1,6 @@
 import React from "react"
 import type { Metadata, Viewport } from 'next'
 import { Nunito } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const nunito = Nunito({ 
@@ -11,7 +10,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: '🎀 A Surprise For You!',
+  title: 'A Surprise For You!',
   description: 'A cute little birthday surprise',
 }
 
@@ -28,7 +27,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${nunito.variable} font-sans antialiased`}>
         {children}
-        <Analytics />
       </body>
     </html>
   )
