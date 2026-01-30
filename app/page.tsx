@@ -387,7 +387,6 @@ function MessagePopup({ message, step, totalSteps, onNext, onClose, isExiting }:
             <span>💕</span>
             <span>💖</span>
           </div>
-          <CatIcon />
           <button
             onClick={onClose}
             className="w-8 h-8 rounded-full bg-white/80 hover:bg-white text-pink-500 font-bold flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-white"
